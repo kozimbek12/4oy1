@@ -1,0 +1,48 @@
+.box__parent{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: red;
+    width: 210px;
+    height: 210px;
+}
+@media{(min-width: 1196px;) and (max-with:1435;)
+    
+.box{
+    background-color: blue;
+}
+}
+@media{(min-width:956px;) and (max-with:1195px;)
+    
+.box{
+        background-color: blue;
+}
+}
+@media{(min-width:716px;) and (max-with:955px;)
+    
+.box{
+background-color: blue;
+}
+}
+@media{(min-width:476px;) and (max-with:715px;)
+    
+.box{
+background-color: blue;
+}
+}
+@media{(min-width:236px;) and (max-with:475xpx;)
+    
+.box{
+background-color: blue;
+}
+}
+@media{(min-width:0px;) and (max-with:235px;)
+    
+.box{
+background-color: blue;
+}
+}
